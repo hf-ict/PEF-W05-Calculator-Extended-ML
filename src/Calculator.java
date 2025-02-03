@@ -26,10 +26,6 @@ public class Calculator {
 
     // Methode zur Modulo-Operation
     public double mod() {
-        if (b == 0) {
-            System.out.println("Fehler: Modulo durch Null ist nicht erlaubt!");
-            return Double.NaN; // Not-a-Number als Fehlerwert
-        }
         return a % b;
     }
 
